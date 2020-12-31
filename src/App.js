@@ -9,7 +9,7 @@ const baseApi = 'https://api.login.yahoo.com/oauth2';
 const route = '/request_auth';
 const client_id = 'dj0yJmk9a3FUWHNVWEZvR0NlJmQ9WVdrOWJWQk1XV040ZFhrbWNHbzlNQT09JnM9Y29uc3VtZXJzZWNyZXQmc3Y9MCZ4PTdh';
 const client_secret = 'e503f57b0d0d10adf5cedd2522e4a50d05deee62';
-const redirect_uri = 'https://liamschauerman.com/yfs';
+const redirect_uri = 'https://yafaba.herokuapp.com/yfs';
 const response_type = 'code';
 const authUrl = `${baseApi}${route}?client_id=${client_id}&redirect_uri=${redirect_uri}&response_type=${response_type}`;
 
